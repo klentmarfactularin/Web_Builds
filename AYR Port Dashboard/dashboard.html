@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AYR Port - Dashboard</title>
+    <link rel="stylesheet" href="customcss.css">
+    <script src="https://kit.fontawesome.com/cc7391008b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="customjs.js"></script>
+</head>
+<body>
+    
+<div class="top-bar">
+    <div class="right-items">
+        <div class="row-liner">
+            <div class="header-hamburger">
+                <img src="images/hamburger icon.svg" class="header-ham-ico">
+            </div>
+            <form class="search-form-header">
+                <input type="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+           <div class="notifier new">
+                <i class="bell fa fa-bell-o"></i>
+                <div class="badge">3</div>
+            </div>
+            
+            <div class="profile-img-container"></div>
+            <div class="header-settings">
+                <img src="images/settings icon.svg" class="header-settings-ico">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="top-bar-mobile">
+    <img src="images/hamburger icon.svg" class="mobile-ham-ico">
+        <div class="notifier new">
+            <i class="bell fa fa-bell-o"></i>
+            <div class="badge">3</div>
+        </div>
+        <div class="profile-img-container"></div>
+        <div class="header-settings">
+            <img src="images/settings icon.svg" class="header-settings-ico">
+        </div>
+</div>
+
+<div class="flex-type">
+    <div class="side-bar-navigation">
+        <div class="left-items">
+            <div class="header-logo">
+                <img src="images/sitelogo.svg" class="header-logo-img">
+            </div>
+            <i class="close-ico fa-solid fa-xmark"></i>
+        </div>
+        <div class="sidebar-inside-container">
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-house"></i>
+                <span class="menu-label">Dashboard</span>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-clipboard-list"></i>
+                <span class="menu-label">QMS</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-lightbulb"></i>
+                <span class="menu-label">About AYR</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-users-gear"></i>
+                <span class="menu-label">People/Human Resources</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-lines-leaning"></i>
+                <span class="menu-label">Useful Resources & Links</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-computer"></i>
+                <span class="menu-label">Fresh Service/Help Desk(IT)</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+            <a href="#" class="menu-link">
+                <i class="menu-pre-ico fa-solid fa-newspaper"></i>
+                <span class="menu-label">AYR News</span>
+                <i class="nav-ico fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="parent-content">
+            <div class="content-title">Dashboard</div>
+            <div class="content-subtitle">Welcome to the AYRport</div>
+            <div class="dashboard-cards">
+                <div class="d-card">
+                    <div class="card-upper">
+                        <div class="card-inner-left">
+                            <img src="images/card1.svg">
+                        </div>
+                        <div class="card-inner-right">
+                            <div class="card-inner-upper-label">All Assign Tasks</div>
+                            <div class="card-inner-upper-label">24</div>
+                        </div>
+                    </div>
+                    <div class="card-lower">
+                        <a href="#" class="card-link">
+                            <span class="card-label">View All Tasks</span>
+                            <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-card">
+                    <div class="card-upper">
+                        <div class="card-inner-left">
+                            <img src="images/card2.svg">
+                        </div>
+                        <div class="card-inner-right">
+                            <div class="card-inner-upper-label">Pending Tasks</div>
+                            <div class="card-inner-upper-label">20</div>
+                        </div>
+                    </div>
+                    <div class="card-lower">
+                        <a href="#" class="card-link">
+                            <span class="card-label">View All Pending Tasks</span>
+                            <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-card">
+                    <div class="card-upper">
+                        <div class="card-inner-left">
+                            <img src="images/card3.svg">
+                        </div>
+                        <div class="card-inner-right">
+                            <div class="card-inner-upper-label">Tasks Inprogress</div>
+                            <div class="card-inner-upper-label">2</div>
+                        </div>
+                    </div>
+                    <div class="card-lower">
+                        <a href="#" class="card-link">
+                            <span class="card-label">View All Tasks Inprogress</span>
+                            <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-card">
+                    <div class="card-upper">
+                        <div class="card-inner-left">
+                            <img src="images/card4.svg">
+                        </div>
+                        <div class="card-inner-right">
+                            <div class="card-inner-upper-label">Completed Tasks</div>
+                            <div class="card-inner-upper-label">2</div>
+                        </div>
+                    </div>
+                    <div class="card-lower">
+                        <a href="#" class="card-link">
+                            <span class="card-label">View All Completed Tasks</span>
+                            <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="dashboard-cards-mobile">
+                <div class="d-card-mobile-container">
+                    <div class="d-card">
+                        <div class="card-upper">
+                            <div class="card-inner-left">
+                                <img src="images/card1.svg">
+                            </div>
+                            <div class="card-inner-right">
+                                <div class="card-inner-upper-label">All Assign Tasks</div>
+                                <div class="card-inner-upper-label">24</div>
+                            </div>
+                        </div>
+                        <div class="card-lower">
+                            <a href="#" class="card-link">
+                                <span class="card-label">View All Tasks</span>
+                                <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-card">
+                        <div class="card-upper">
+                            <div class="card-inner-left">
+                                <img src="images/card2.svg">
+                            </div>
+                            <div class="card-inner-right">
+                                <div class="card-inner-upper-label">Pending Tasks</div>
+                                <div class="card-inner-upper-label">20</div>
+                            </div>
+                        </div>
+                        <div class="card-lower">
+                            <a href="#" class="card-link">
+                                <span class="card-label">View All Pending Tasks</span>
+                                <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-card-mobile-container">
+                    <div class="d-card">
+                        <div class="card-upper">
+                            <div class="card-inner-left">
+                                <img src="images/card3.svg">
+                            </div>
+                            <div class="card-inner-right">
+                                <div class="card-inner-upper-label">Tasks Inprogress</div>
+                                <div class="card-inner-upper-label">2</div>
+                            </div>
+                        </div>
+                        <div class="card-lower">
+                            <a href="#" class="card-link">
+                                <span class="card-label">View All Tasks Inprogress</span>
+                                <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-card">
+                        <div class="card-upper">
+                            <div class="card-inner-left">
+                                <img src="images/card4.svg">
+                            </div>
+                            <div class="card-inner-right">
+                                <div class="card-inner-upper-label">Completed Tasks</div>
+                                <div class="card-inner-upper-label">2</div>
+                            </div>
+                        </div>
+                        <div class="card-lower">
+                            <a href="#" class="card-link">
+                                <span class="card-label">View All Completed Tasks</span>
+                                <i class="card-ico fa-solid fa-arrow-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-part-container">
+                <div class="content-announcements">
+                    <div class="announcements-title">Announcements</div>
+                    <div class="anouncement-cards-container">
+                        <div class="announcement-cards">
+                            <div class="a-card-title">Nov 2023 - Random Act of Kyndness Gallery</div>
+                            <img src="images/announcement card 1.png" class="a-card-img">
+                        </div>
+                        <div class="announcement-cards">
+                            <div class="a-card-title">Nov 2023 - Random Act of Kyndness Gallery</div>
+                            <img src="images/announcement card 1.png" class="a-card-img">
+                        </div>
+                        <div class="announcement-cards">
+                            <div class="a-card-title">Nov 2023 - Random Act of Kyndness Gallery</div>
+                            <img src="images/announcement card 1.png" class="a-card-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="content-others">
+                    <div class="announcements-title">Other</div>
+                    <div class="other-cards-container">
+                        <div class="other-cards">
+                            <div class="other-card-title">New Customer Complaints</div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">Barbara One - 12/14/2023</div>
+                                <div class="cs-card-comment">“Button not working”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">Barbara One - 12/14/2023</div>
+                                <div class="cs-card-comment">“Button not working”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">Barbara One - 12/14/2023</div>
+                                <div class="cs-card-comment">“Button not working”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">Barbara One - 12/14/2023</div>
+                                <div class="cs-card-comment">“Button not working”</div>
+                            </div>
+                            <div class="cs-btn-container">
+                                <a href="#" class="cs-btn">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <div class="right-container">
+                        <div class="right-sidebar-title">Completed Tasks Chart</div>
+                        <div class="right-sidebar-pie">
+                            <div class="pie" style="--p:8;--c:#0B6AC3;--b:10px;"> 8%</div>
+                        </div>  
+                    </div>
+                    <div class="right-container">
+                        <div class="right-sidebar-title">Activity Log</div>
+                        <div class="right-sidebar-content">
+                            <div class="cs-card">
+                                <div class="cs-card-name">JAN 22</div>
+                                <div class="cs-card-comment">Responded to need “Volunteer Activities”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">JAN 22</div>
+                                <div class="cs-card-comment">Responded to need “Volunteer Activities”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">JAN 22</div>
+                                <div class="cs-card-comment">Responded to need “Volunteer Activities”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">JAN 22</div>
+                                <div class="cs-card-comment">Responded to need “Volunteer Activities”</div>
+                            </div>
+                            <div class="cs-card">
+                                <div class="cs-card-name">JAN 22</div>
+                                <div class="cs-card-comment">Responded to need “Volunteer Activities”</div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
